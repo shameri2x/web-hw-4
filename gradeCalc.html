@@ -7,28 +7,41 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="content">
     <div class="wrapper">
       <h1>الحاسبة 🔢</h1>
-
       <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
+      <input class="input" id="Quizes" type="text" />
+      <input class="input" id="Midterm" type="text" />
+      <input class="input" id="FinalTest" type="text" />
+      <input class="input" id="Oral" type="text" />
 
-      <input id="Quizes" type="text" />
-      <input id="Midterm" type="text" />
-      <input id="FinalTest" type="text" />
-      <input id="Oral" type="text" />
+      <input class="cal"
+      id="submitButton"
+      type="button"
+      value="calculate"
+      onClick="submit()"
+    />
 
-      <input
-        id="submitButton"
-        type="button"
-        value="calculate"
-        onClick="submit()"
-      />
+    <p>ادخل مجموع درجاتك في حقل واحد</p>
+    <input class="input2" id="numbers" type="text" />
 
-      <p>مجموع درجاتك (بالأرقام) هو</p>
-      <div id="total_grades"></div>
+    <input class="cal2"
+    id="submitButton"
+    type="button"
+    value="calculate"
+    onClick="submit2()"
+  />
 
-      <p>درجتك النهائية هي (بالأحرف)</p>
-      <div id="final_grade"></div>
+    
+
+    <p>مجموع درجاتك (بالأرقام) هو</p>
+    <div id="total_grades"></div>
+
+    <p>درجتك النهائية هي (بالأحرف)</p>
+    <div id="final_grade"></div>
+    <script src="./cal.js"></script>
     </div>
+  </div>
   </body>
 </html>

@@ -1,1 +1,37 @@
 /* 🎓 تحت هذا التعليق أتحفونا بتصاميمكم التي تليق بقدر حاسبة الدرجات */
+body{
+    margin: 0; 
+    background-image:url(./imgs/calculatorBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+} 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.wrapper{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.898);
+    text-align: center;
+    width: 400px;
+  
+}
+.directions{
+    margin-bottom: 10px;
+}
+.input{
+    margin-bottom: 5px;
+}
+.input2{
+    margin-top: 10px;
+}
+.cal2{
+    margin-top: 10px;
+}
